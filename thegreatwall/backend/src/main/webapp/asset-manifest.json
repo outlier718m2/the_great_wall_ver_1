@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thegreatwall/static/css/main.ba94b690.css",
+    "main.js": "/thegreatwall/static/js/main.72663adf.js",
+    "static/js/453.8ab44547.chunk.js": "/thegreatwall/static/js/453.8ab44547.chunk.js",
+    "static/media/cat_num_3.jpg": "/thegreatwall/static/media/cat_num_3.3abfa6bfc498cc2b1660.jpg",
+    "index.html": "/thegreatwall/index.html",
+    "main.ba94b690.css.map": "/thegreatwall/static/css/main.ba94b690.css.map",
+    "main.72663adf.js.map": "/thegreatwall/static/js/main.72663adf.js.map",
+    "453.8ab44547.chunk.js.map": "/thegreatwall/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba94b690.css",
+    "static/js/main.72663adf.js"
+  ]
+}

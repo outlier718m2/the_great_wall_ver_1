@@ -1,0 +1,72 @@
+/* 기본 스타일 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* 상대 경로로 변경 - 빌드 시에는 상대 경로 사용 */
+    background-image: url('../../images/cat_num_3.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+  
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* 배경을 약간 투명하게 만들어 고양이 사진이 보이게 함 */
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+}
+  
+h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+  
+.textbox {
+    margin-bottom: 20px;
+}
+  
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+.textbox input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+  
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.btn:hover {
+    background-color: #45a049;
+}
